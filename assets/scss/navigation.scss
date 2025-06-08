@@ -130,7 +130,7 @@
 
   .contao-nav--dropdown-menu {
     position: absolute;
-    z-index: 1054; // The underlying buttons from the bootstrap carousel have z-index of 1054
+    z-index: 6; // The underlying buttons from the bootstrap carousel have z-index of 1054
     right: 0;
     height: auto;
     margin: 0;
@@ -140,6 +140,7 @@
     min-width: 8rem;
     border: none;
     border-radius: 0;
+    display: block;
   }
 
   .contao-nav--dropdown-menu ul.level_2 {

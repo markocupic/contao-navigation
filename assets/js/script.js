@@ -72,7 +72,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Hide dropdowns on scroll
     window.addEventListener('scroll', function (e) {
-        //e.preventDefault();
         //hideSubmenus();
     });
 
